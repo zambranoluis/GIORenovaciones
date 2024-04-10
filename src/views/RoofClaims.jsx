@@ -34,7 +34,7 @@ const RoofClaims = () => {
 			<section className={style.section} >
 				<div className={style.divition}>
 					<h2 className={style.divitionTitle}>
-						Types Damages
+						Types of Damages
 					</h2>
 				</div>
 				<div className={style.divDamage}>
