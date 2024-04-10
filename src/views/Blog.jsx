@@ -6,10 +6,9 @@ import Entry2Picture from "../assets/Blog/BlogEntry2.webp"
 const Blog = () => {
 	const style = {
 		mainBlog: "flex flex-col justify-center items-center",
-		callToAction: "w-full h-[50vh] flex justify-center items-center bg-cover bg-bottom bg-no-repeat bg-fixed",
-		infoSection: " h-[40vh] w-full bg-none flex justify-center items-center",
 
-		sectionCTA: "flex w-full h-[50vh] justify-center items-center bg-cover bg-center bg-no-repeat bg-fixed",
+
+		sectionCTA: "flex w-full h-[50vh] justify-center items-center bg-cover bg-top bg-no-repeat md:bg-fixed",
 		CTAContainer: "flex w-full justify-center items-center",
 		divTitle: "flex justify-center items-center",
 		titleCTA: "text-white text-center text-5xl font-poppins font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]",

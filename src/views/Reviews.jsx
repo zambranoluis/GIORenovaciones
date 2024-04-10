@@ -6,7 +6,7 @@ const Reviews = () => {
 	const style = {
 		mainReviews: "flex flex-col justify-center items-center gap-[50px]",
 
-		sectionCTA: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-bottom bg-no-repeat bg-fixed",
+		sectionCTA: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-bottom bg-no-repeat md:bg-fixed",
 		CTAContainer: "flex relative",
 		divTitle: "flex justify-center items-center z-10 p-3",
 		titleCTA: "text-white text-center font-poppins text-5xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] ",

@@ -8,8 +8,8 @@ const RainGuttersAndPaintingServices = () => {
 	const style = {
 		mainPaintingServices: "flex flex-col justify-center items-center gap-[50px]",
 
-		sectionCTA: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-bottom bg-no-repeat bg-fixed",
-		sectionCTAR: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-top md:bg-center bg-no-repeat bg-fixed",
+		sectionCTA: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-top bg-no-repeat md:bg-fixed",
+		sectionCTAR: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-top md:bg-center bg-no-repeat md:bg-fixed",
 		CTAContainer: "flex relative",
 		divTitle: "flex justify-center items-center z-10 p-3",
 		titleCTA: "text-white text-center font-poppins text-5xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] ",
@@ -19,22 +19,23 @@ const RainGuttersAndPaintingServices = () => {
 		divImgGutters: "lg:w-[50%] md:w-[70%] lg:w-[50%] ",
 		divGutterText: "lg:w-[50%] flex flex-col items-center justify-center  gap-[20px] ",
 
-		container: "flex flex-wrap items-center justify-center h-full w-full py-16",
+		container: "flex flex-wrap  items-center justify-center h-full w-[90%] py-16",
 
 		divImg: "flex items-center justify-center w-full h-[80%] lg:w-[50%] p-4 md:p-8 lg:p-16",
 		dividerHorizontal: "flex w-[80%] h-[1px] bg-[#0a4334] ",
-		divText: "flex flex-col items-center justify-center w-full p-6 md:p-8 gap-6",
+		divText: "flex flex-col items-center justify-center w-full p-4 md:p-8 gap-6",
 
 		divition: "flex items-center justify-center w-full py-2 w-[90%]",
 		textDivition: "text-3xl font-bold text-white font-poppins text-center",
 		textDivition2: "text-3xl font-bold text-[#ef8f21] text-center",
 
+		infoSection2: "flex flex-col w-[100%] bg-none flex justify-center items-center ",
 		container2: "flex flex-col bg-cover w-[100%] justify-center bg-center bg-no-repeat bg-fixed",
 		container3: "flex flex-wrap justify-center items-start xl:px-40 gap-20 py-20 bg-black/60 w-[100%]",
 		divText2: "flex flex-col items-center justify-center w-full  p-6 md:p-8 ",
 		divText3: "flex flex-col items-center justify-center w-full lg:w-[50%] p-6 md:p-8 gap-6",
 
-		container4: "flex flex-col bg-cover w-[100%] justify-center bg-top bg-no-repeat bg-fixed",
+		container4: "flex flex-col bg-cover justify-center bg-top bg-no-repeat bg-fixed",
 		tarjeta: "flex flex-col items-start justify-start w-[280px] h-[250px] md:h-[180px] md:w-[380px] p-2 backdrop-blur-sm bg-white/10 rounded-lg shadow-sm "
 
 	}
@@ -77,7 +78,7 @@ const RainGuttersAndPaintingServices = () => {
 
 					<div className={style.divGutterText}>
 						<div className={style.divText}>
-							<h1 className="text-3xl font-poppins text-center font-bold text-[#ef8f21]">Efficient Rain Gutters for Your Property</h1>
+							<h1 className="text-3xl font-poppins text-center pt-4 font-bold text-[#ef8f21]">Efficient Rain Gutters for Your Property</h1>
 							<p className="text-lg text-[#0a4334] font-poppins text-justify pb-8">Gio Renovations specializes in installing top-quality rain gutters that efficiently collect and divert rainwater, protecting your property from potential leaks, mold growth, and structural issues.</p>
 						</div>
 						<div className={style.dividerHorizontal}></div>
@@ -108,7 +109,7 @@ const RainGuttersAndPaintingServices = () => {
 				</div>
 			</section>
 
-			<section className={style.infoSection}>
+			<section className={style.infoSection2}>
 				<div className={style.container}>
 					<div className={style.divText3}>
 						<h1 className="text-3xl font-bold text-center font-poppins text-[#ef8f21]">Professional Painting Services to Transform Your Space</h1>
@@ -117,7 +118,8 @@ const RainGuttersAndPaintingServices = () => {
 					<div className={style.divImg}>
 						<img src={PaintingHouse} alt="RainGutters" className="w-[75%] h-full" />
 					</div>
-					<div className={style.container4} style={{ backgroundImage: `url(${Painting})` }}>
+				</div>
+				<div className={style.container4} style={{ backgroundImage: `url(${Painting})` }}>
 						<div className={style.container3}>
 							<div className={style.divition}>
 								<h1 className={style.textDivition}>Types Of Painting Services</h1>
@@ -139,7 +141,6 @@ const RainGuttersAndPaintingServices = () => {
 							})}
 						</div>
 					</div>
-				</div>
 			</section>
 
 		</main>

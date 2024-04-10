@@ -30,7 +30,7 @@ const style = {
 	mainRoofClaims: "flex flex-col justify-center items-center gap-[50px]",
 
 	sectionCTA:
-		"relative flex w-full h-[50vh] justify-center items-center bg-cover bg-bottom bg-no-repeat bg-fixed",
+		"relative flex w-full h-[50vh] justify-center items-center bg-cover bg-bottom bg-no-repeat md:bg-fixed",
 	CTAContainer: "flex relative",
 	divBlurCTA: "flex absolute w-full h-full",
 	divTitle: "flex justify-center items-center z-10 p-3",
@@ -52,18 +52,19 @@ const style = {
 	tarjetaDmg:
 		" flex flex-row-reverse items-center justify-between w-[380px] h-[200px] hover:bg-white/10 rounded-lg hover:shadow-md p-2 ",
 	divTitleDmg: " w-[50%] flex justify-center items-center",
-	titleDmg: "text-2xl font-bold font-poppins text-[#ef8f21] text-center",
+	titleDmg: "text-2xl font-poppins text-[#ef8f21] text-center",
 	divImgDmg: "flex items-center justify-center w-[50%] rounded-full p-8",
 
 	imgDmg: "",
 
 	divitionTitle:
 		"text-3xl font-bold font-poppins text-white w-full text-center",
+	section2: "flex flex-col items-center justify-center w-[100%] h-full",
 	container2:
 		"flex bg-cover w-[100%] justify-center bg-top bg-no-repeat bg-fixed",
 	divition2: "flex items-center justify-center w-full py-2 w-[90%]",
 	container3:
-		"flex flex-wrap justify-center items-start lg:px-16 xl:px-30 2xl:px-[390px] gap-10 py-20 bg-black/60 w-[100%]",
+		"flex flex-wrap justify-center items-start lg:px-14 xl:px-36 2xl:px-[390px] gap-10 py-20 bg-black/60 w-[100%]",
 	tarjeta:
 		"flex flex-col items-start justify-start w-[280px] h-[200px] p-2 backdrop-blur-sm bg-white/10 rounded-lg shadow-sm ",
 

@@ -105,8 +105,8 @@ const NavBar = () => {
 	]
 
 	const styles = {
-		nav: "flex flex-col w-full bg-white py-[10px] px-[60px] justify-between items-center gap-[40px] py-[40px] min-[890px]:hidden ",
-		nav2: "hidden min-[890px]:flex w-full bg-white py-[10px] px-[60px] justify-between items-center gap-[40px] py-[40px] min-[890px]:py-[20px]  ",
+		nav: "flex flex-col w-full bg-white justify-between items-center gap-[20px] py-[20px] min-[890px]:hidden ",
+		nav2: "hidden min-[890px]:flex w-full bg-white px-[60px] justify-between items-center gap-[40px] py-[40px] min-[890px]:py-[20px]  ",
 
 		divLogo: "flex gap-[40px] items-center ",
 		linkLogo: "flex items-center justify-center",

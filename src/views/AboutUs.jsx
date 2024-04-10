@@ -19,7 +19,7 @@ const AboutUs = () => {
 	const style = {
 		mainAboutUs: "flex flex-col justify-center items-center gap-[50px]",
 
-		sectionCTA: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-no-repeat bg-fixed",
+		sectionCTA: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-no-repeat md:bg-fixed",
 		CTAContainer: "flex relative",
 		divTitle: "flex justify-center items-center z-10 p-3",
 		titleCTA: "text-white text-center font-poppins text-5xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] ",
@@ -33,7 +33,7 @@ const AboutUs = () => {
 		textMission: "text-justify font-poppins",
 		divVision: "flex flex-col lg:w-[50%] gap-[20px]",
 		titleVision: "text-center text-5xl font-poppins font-bold",
-		textVision: "text-justify",
+		textVision: "text-justify font-poppins",
 
 		teamContainer: "flex flex-col py-10 w-[90%]  gap-[40px] justify-center items-center",
 		divTeamTitle: "flex items-center justify-center w-full py-2 bg-[#0a4334]",

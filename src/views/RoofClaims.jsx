@@ -34,7 +34,7 @@ const RoofClaims = () => {
 			<section className={style.section} >
 				<div className={style.divition}>
 					<h2 className={style.divitionTitle}>
-						Type Damages
+						Types Damages
 					</h2>
 				</div>
 				<div className={style.divDamage}>
@@ -57,7 +57,7 @@ const RoofClaims = () => {
 					})}
 				</div>
 			</section>
-			<section className={style.section}>
+			<section className={style.section2}>
 				<div className={style.container2} style={{ backgroundImage: `url(${Background})` }}>
 					<div className={style.container3}>
 						<div className={style.divition2}>

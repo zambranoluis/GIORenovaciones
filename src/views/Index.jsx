@@ -85,12 +85,12 @@ function Index() {
 			</section>
 			<section className={styles.section2}>
 				<div className={styles.texto}>
-					<span className="text-4xl font-bold font-poppins ">Gio Renovations
-						<span className="text-4xl font-bold font-poppins px-4 text-[#ef8f21]">
-							Has successfully upgraded 500+ houses.
-						</span></span>
-					<p className="text-3xl px-10 text-justify font-poppins text-[#0a4334]">
+					<div>
+						<p className="text-4xl font-bold font-poppins " >Gio Renovations has successfully</p>
+						<p className="text-4xl font-bold font-poppins  text-[#ef8f21]">upgraded 500+ houses.</p>
+					</div>
 
+					<p className="text-3xl text-center font-poppins text-[#0a4334]">
 						Our dedication to improving houses roof by roof has had a significant impact on countless families, turning their houses into dream homes.
 					</p>
 				</div>
@@ -125,7 +125,7 @@ function Index() {
 					<div className={styles.flexIcons2}>
 						{Icons2.map((icon, index) => (
 							<div className={styles.icon2} key={index}>
-								<div>
+								<div className={styles.icon2Container}>
 									{icon.src}
 								</div>
 								<div className={styles.textContainer}>
@@ -137,7 +137,7 @@ function Index() {
 					</div>
 					<div className={styles.legend}>
 						<div className={styles.map}>
-							<img className="w-[350px] md:w-[800px] rotate-2" src={Florida} alt="Florida" />
+							<img className="w-[380px] md:w-[800px] rotate-2" src={Florida} alt="Florida" />
 						</div>
 						<div className={styles.textLegend}>
 							<div className="flex flex-col items-start justify-start">

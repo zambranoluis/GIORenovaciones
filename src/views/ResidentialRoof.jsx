@@ -39,7 +39,7 @@ const ResidentialRoof = () => {
 	const style = {
 		mainResidentialRoof: "flex flex-col justify-center items-center gap-[70px]",
 
-		sectionCTA: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-bottom bg-no-repeat bg-fixed",
+		sectionCTA: "relative flex w-full h-[50vh] justify-center items-center bg-cover bg-bottom bg-no-repeat md:bg-fixed",
 		CTAContainer: "flex relative",
 		divTitle: "flex justify-center items-center z-10 p-3",
 		titleCTA: "text-white text-center text-5xl font-poppins font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] ",
@@ -49,19 +49,19 @@ const ResidentialRoof = () => {
 		divVideo:
 			"flex items-center justify-center w-full lg:w-[50%] h-[30%] sm:h-[50%] md:h-[55%] lg:h-[60%] xl:h-[80%] ",
 		divText:
-			"flex flex-col items-start justify-center w-full lg:w-[50%] h-[40%] md:h-[50%] xl:h-[55%] px-16",
+			"flex flex-col items-start justify-center w-full lg:w-[50%] h-[40%] md:h-[50%] xl:h-[55%] px-12",
 
 		typesSection: "w-full flex flex-col justify-center items-center  py-[50px] gap-[70px]",
-		divTitleTypes: "flex items-center justify-center py-2 bg-[#0a4334] w-[90%]",
+		divTitleTypes: "flex items-center justify-center py-2 bg-[#ef8f21] w-[90%]",
 		titleTypes: "text-4xl font-bold text-white font-poppins text-center",
 		typesContainer: " flex flex-wrap flex-col md:flex-row w-[90%] justify-center items-center gap-[40px] ",
 		divType: "w-[350px] h-[350px] lg:w-[220px] lg:h-[220px] flex flex-col justify-center items-center gap-[30px]",
 		divImgType: "h-[80%] ",
 		imgType: "w-full h-full hover:scale-110 md:hover:scale-125",
 		divNameType: "h-[20%]",
-		nameType: "text-2xl font-bold text-[#ef8f21] font-poppins text-center",
+		nameType: "text-2xl  text-[#0a4334] font-poppins text-center",
 
-		replacementContainer: " flex flex-col justify-center items-center w-[90%] ",
+		replacementContainer: " flex flex-col justify-center items-center w-[100%] ",
 		divTitleReplacement: "flex items-center justify-center w-full py-2 px-2",
 		titleReplacement: "text-3xl font-bold text-white font-poppins w-full text-center",
 		replacements: "bg-black/60 pt-10",
@@ -70,7 +70,7 @@ const ResidentialRoof = () => {
 		container3: "flex flex-wrap justify-center items-start lg:px-[10px] xl:px-[140px] 2xl:px-[390px] gap-10 py-20  w-[100%]",
 		tarjeta: "flex flex-col items-start justify-start w-[280px] h-[200px] p-2 backdrop-blur-sm bg-white/10 rounded-lg shadow-sm ",
 
-		pictureBottomSection: "h-[70vh] w-[90%] bg-cover bg-no-repeat mb-[100px]",
+		pictureBottomSection: "h-[70vh] w-[100%] bg-cover bg-no-repeat mt-24",
 	}
 	return (
 		<main className={style.mainResidentialRoof}>
